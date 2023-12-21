@@ -5,7 +5,6 @@
 @section('content')
 
     <h1>IKASLE BERRIA</h1>
-    {{-- Konponeteekin eginda --}}
 
     <form action="{{ route('alumnos.store')}}" method="post" enctype="multipart/form-data" class="mt-6 space-y-6">
         @csrf
